@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOY_PATH=/home4/theashme/blog.theash.me
+    - /bin/cp -R * $DEPLOY_PATH
+    - echo "Deployment complete!"
